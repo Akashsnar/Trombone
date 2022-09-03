@@ -1,0 +1,138 @@
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(230, 230, 230);
+}
+
+main {
+    text-align: center;
+}
+
+#submit {
+    background-color: rgb(255, 204, 0);
+    border: 0;
+    margin-top: 1%;
+    border-radius: 10px;
+}
+
+#video {
+    margin-top: 4%;
+}
+
+#submit:hover {
+    background: #016ABC;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+}
+
+#pricing {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.product {
+    text-align: center;
+    width: 18%;
+    margin-top: 2%;
+    border: 1px solid black;
+}
+
+.btn {
+    background-color: rgb(255, 204, 0);
+    border: 0;
+    margin-top: 3%;
+    width: 25%;
+    height: 25px;
+}
+
+.btn:hover {
+    background: #016ABC;
+    color: #fff;
+    border: 1px solid #eee;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+}
+
+.level {
+    padding-top: 2%;
+    height: 25px;
+    background-color: rgb(230, 230, 230);
+}
+
+#nav-bar {
+    text-align: right;
+    padding-top: 20px;
+    /* margin:; */
+    width: 1400px;
+    background-color: rgb(230, 230, 230);
+    height: 50px;
+    align-items: center;
+}
+
+.nav-link {
+    position: relative;
+    margin: auto;
+    bottom: 0px;
+    text-decoration: none;
+    padding: 14px 25px;
+    line-height: 0px;
+    /* margin-top: 2px; */
+    /* background-color: green; */
+}
+
+#header {
+    padding: 0px;
+    margin-top: 0%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+#header-img {
+    position: absolute;
+    /* height: 100%; */
+    top: 0%;
+    margin-top: 0%;
+    width: 2%;
+    left: 0;
+}
+
+.h {
+    margin-top: 7%;
+}
+
+.f {
+    margin-top: 2%;
+    margin-bottom: 0%;
+    padding: 0;
+    text-align: right;
+    background-color: rgb(185, 185, 185);
+}
+
+.fp {
+    display: inline-block;
+    margin: 1%;
+}
