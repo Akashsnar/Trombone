@@ -7,11 +7,86 @@
 body {
     margin: 0%;
     padding: 0%;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(186, 181, 175);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 main {
     text-align: center;
+}
+
+.starting {
+    background-color: white;
+    padding-top: 300px;
+    padding-bottom: 15%;
+}
+
+.headtext {
+    /* font-size: x-large; */
+    margin-top: 0%;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0%;
+    padding: 0%;
+    background-color: rgb(252, 249, 249);
+    /* padding: 0px 20px; */
+}
+
+#nav-bar {
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5%;
+    /* margin:; */
+    width: 100%;
+    opacity: 100%;
+    margin: 0%;
+    /* align-items: center; */
+}
+
+#header-img {
+    width: 2%;
+    height: 2%;
+}
+
+.logotext {
+    font-family: cursive;
+    font-size: x-large;
+}
+
+.nav-link {
+    position: relative;
+    bottom: 10px;
+    text-decoration: none;
+    padding: 14px 25px;
+    line-height: 0px;
+    font-family: sans-serif;
+    left: 58%;
+    color: red;
+    /* margin-top: 2px; */
+    /* background-color: green; */
+}
+
+.nav-link:hover {
+    color: black;
+    font-size: larger;
+}
+
+.vbg {
+    top: 80%;
+    position: absolute;
+    width: 100%;
+    height: 110%;
+    /* left: 60%; */
+    /* height: 150%; */
+    left: 0;
+    z-index: -1;
+    opacity: 80%;
 }
 
 #submit {
@@ -22,7 +97,10 @@ main {
 }
 
 #video {
+    border-radius: 5%;
     margin-top: 4%;
+    padding-bottom: 5%;
+    padding-right: 10%;
 }
 
 #submit:hover {
@@ -34,7 +112,8 @@ main {
     text-shadow: none;
 }
 
-#pricing {
+
+/* #pricing {
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -50,11 +129,13 @@ ol {
     margin: 0;
 }
 
+
 .product {
     text-align: center;
     width: 18%;
     margin-top: 2%;
     border: 1px solid black;
+    background-color: white;
 }
 
 .btn {
@@ -71,61 +152,93 @@ ol {
     border: 1px solid #eee;
     box-shadow: 5px 5px 5px #eee;
     text-shadow: none;
+} */
+
+.trans {
+    background-color: white;
+}
+
+.Types {
+    padding-top: 0%;
+    padding-bottom: 3.5%;
+    /* background-color: #eee; */
+    /* background-color: rgb(252, 249, 249); */
+    /* height: 700px; */
+}
+
+.bg {
+    /* z-index: 2; */
+    width: 100%;
+    height: 124%;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+}
+
+.t {
+    padding-top: 3.5%;
+    margin: auto;
+    width: 60%;
+}
+
+.tromo1 {
+    width: 24%;
+    height: 24%;
+    border-radius: 50%;
+    float: right;
+    margin-left: 2.5%;
+}
+
+.type-text1 {
+    text-align: right;
+    height: 20%;
+}
+
+.tromo2 {
+    width: 24%;
+    height: 24%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 2.5%;
+}
+
+.type-text2 {
+    text-align: left;
+}
+
+.tromo3 {
+    width: 24%;
+    height: 24%;
+    border-radius: 50%;
+    float: right;
+    margin-left: 2.5%;
+}
+
+.type-text3 {
+    text-align: right;
 }
 
 .level {
     padding-top: 2%;
     height: 25px;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(255, 204, 0);
 }
 
-#nav-bar {
-    text-align: right;
-    padding-top: 20px;
-    /* margin:; */
-    width: 1400px;
-    background-color: rgb(230, 230, 230);
-    height: 50px;
-    align-items: center;
-}
-
-.nav-link {
-    position: relative;
-    margin: auto;
-    bottom: 0px;
-    text-decoration: none;
-    padding: 14px 25px;
-    line-height: 0px;
-    /* margin-top: 2px; */
-    /* background-color: green; */
-}
-
-#header {
-    padding: 0px;
-    margin-top: 0%;
-    position: fixed;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 20px;
-}
-
-#header-img {
-    position: absolute;
-    /* height: 100%; */
-    top: 0%;
-    margin-top: 0%;
-    width: 2%;
-    left: 0;
+.sp {
+    font-size: larger;
+    text-decoration: solid;
+    font-weight: bold;
+    /* padding-left: 9; */
+    /* text-shadow: rgb(122, 60, 60); */
 }
 
 .h {
+    /* padding-top: 3%; */
     margin-top: 7%;
 }
 
 .f {
-    margin-top: 2%;
+    /* margin-top: 2%; */
     margin-bottom: 0%;
     padding: 0;
     text-align: right;
