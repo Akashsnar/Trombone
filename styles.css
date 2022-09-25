@@ -112,48 +112,6 @@ main {
     text-shadow: none;
 }
 
-
-/* #pricing {
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-}
-
-ol {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-
-.product {
-    text-align: center;
-    width: 18%;
-    margin-top: 2%;
-    border: 1px solid black;
-    background-color: white;
-}
-
-.btn {
-    background-color: rgb(255, 204, 0);
-    border: 0;
-    margin-top: 3%;
-    width: 25%;
-    height: 25px;
-}
-
-.btn:hover {
-    background: #016ABC;
-    color: #fff;
-    border: 1px solid #eee;
-    box-shadow: 5px 5px 5px #eee;
-    text-shadow: none;
-} */
-
 .trans {
     background-color: white;
 }
@@ -161,9 +119,6 @@ ol {
 .Types {
     padding-top: 0%;
     padding-bottom: 3.5%;
-    /* background-color: #eee; */
-    /* background-color: rgb(252, 249, 249); */
-    /* height: 700px; */
 }
 
 .bg {
